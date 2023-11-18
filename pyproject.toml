@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "basic-webapp"
+version = "0.1.0"
+description = ""
+authors = ["miguelm7 <miguelmore100@gmail.com>"]
+readme = "README.md"
+packages = [{include = "basic_webapp"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.28.2"
+pillow = "^10.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
